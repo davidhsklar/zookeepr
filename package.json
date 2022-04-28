@@ -2,9 +2,9 @@
   "name": "zookeeper",
   "version": "1.0.0",
   "description": "manages animal arrays",
-  "main": "npm start",
+  "main": "server.js",
   "scripts": {
-    "test": "npm run test",
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
