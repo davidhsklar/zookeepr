@@ -1,5 +1,5 @@
 const express = require('express');
-const { animals } = require('./data/animals');
+const { animals } = require('./data/animals.json');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -44,7 +44,7 @@ app.get('/api/animals', (req, res) => {
   res.json(results);
 });
 
-app.get('/api/animals/:id', (req, res) => {
+app.get('/api/animals:id', (req, res) => {
   const result = findById(req.params.id, animals);
   if (result) {
     res.json(result);
