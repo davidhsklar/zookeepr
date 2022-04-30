@@ -108,6 +108,15 @@
         "hungry"
       ],
       "iq": "10"
+    },
+    {
+      "name": "test",
+      "species": "tesst",
+      "diet": "folivore",
+      "personalityTraits": [
+        "zany"
+      ],
+      "id": "11"
     }
   ]
 }
